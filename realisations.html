@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Réalisations — Jenius Subtil Fiction</title>
+<meta name="description" content="Portfolio JSF : branding, identité visuelle, sites web et direction artistique."/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="">
+</div>
+<body>
+
+<header class="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><img src="assets/jsf-logo.png" alt=""/><span class="brand-text">Jenius<span>Subtil Fiction</span></span></a>
+      <nav><ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="realisations.html">Réalisations</a></li><li><a href="a-propos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></nav>
+      <a href="contact.html" class="btn btn-primary nav-cta">Demander un devis →</a>
+      <button class="menu-btn" aria-label="Menu"><span></span></button>
+    </div>
+    <div class="mobile-panel">
+      <a href="index.html">Accueil</a><a href="services.html">Services</a>
+      <a href="realisations.html">Réalisations</a><a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Portfolio</p>
+    <h1>Réalisations sélectionnées</h1>
+    <p>Une sélection de projets de branding, design et développement web menés ces dernières années.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div style="display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;margin-bottom:2.5rem">
+      <button class="btn btn-ghost active" data-filter="all">Tout</button>
+      <button class="btn btn-ghost" data-filter="branding">Branding</button>
+      <button class="btn btn-ghost" data-filter="web">Web</button>
+      <button class="btn btn-ghost" data-filter="print">Print</button>
+      <button class="btn btn-ghost" data-filter="da">Direction artistique</button>
+    </div>
+
+    <div class="projects" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr))">
+      <article class="project reveal" data-cat="branding"><div class="ph" style="background-image: url('assets/branding-so-yummy.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>SoYummy</strong><small>Branding · Packaging</small></div><small>2024</small></div></article>
+      <article class="project reveal" data-cat="branding"><div class="ph" style="background-image: url('assets/mini-charte-fahijab-store.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>FHIJAB Store</strong><small>Identité · DA</small></div><small>2024</small></div></article>
+      <article class="project reveal" data-cat="web"><div class="ph" style="background-image: url('assets/site-sswy.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>SW Hôpital</strong><a href="https://saytouwerr.byethost22.com" target="_blank" class="visit-btn"><strong>🍀 Visiter</strong><style>.a{color: var(--ink);} </style></a><small>Site web · UI</small></div><small>2025</small></div></article>
+      <article class="project reveal" data-cat="Media-post"><div class="ph" style="background-image: url('assets/fahijab-henne-edition.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>Henné Editon</strong><small>Média · Post</small></div><small>2025</small></div></article>
+      <article class="project reveal" data-cat="Media-post"><div class="ph" style="background-image: url('assets/affiche-juicy-fresh.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>Jiuce Moment</strong><small>Média · Post</small></div><small>2025</small></div></article>
+      <article class="project reveal" data-cat="Media-post"><div class="ph" style="background-image: url('assets/alc-medical-store.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>Vente Accessoire médical</strong><small>Média · Post</small></div><small>2025</small></div></article>
+      <article class="project reveal" data-cat="print"><div class="ph" style="background-image: url('assets/print-boi-graine-de-courge.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>Affiche-Médicament Bio</strong><small>Print · Editorial</small></div><small>2024</small></div></article>
+      <article class="project reveal" data-cat="da"><div class="ph" style="background-image: url('assets/mati-archi.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>Lookbook MATY Archi</strong><small>Direction artistique</small></div><small>2024</small></div></article>
+      <article class="project reveal" data-cat="web"><div class="ph" style="background-image: url('assets/rahma-store.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>E-shop Mode</strong><small>Maquette ui</small></div><small>2025</small></div></article>
+      <article class="project reveal" data-cat="web"><div class="ph" style="background-image: url('assets/mati-archi.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>Architecte</strong><small>Maquette ui</small></div><small>2026</small></div></article>
+      <article class="project reveal" data-cat="branding"><div class="ph" style="background-image: url('assets/mashalla-la-dif-sn-affiche-pot-gâteau.jpg');" data-alt="..."></div><div class="project-foot"><div><strong>Paticerie La Dif</strong><small>Branding + Menu</small></div><small>2025</small></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="contact-block">
+  <div class="inner">
+    <div>
+      <p class="eyebrow" style="color:var(--sand)">Votre projet</p>
+      <h2>Prêt à rejoindre le portfolio ?</h2>
+      <p>Discutons de votre vision et construisons un projet à la hauteur.</p>
+      <a href="contact.html" class="btn btn-sand" style="margin-top:1.2rem">Démarrer un projet →</a>
+    </div>
+    <div class="contact-card">
+      <a href="tel:+221785258517"><span><small>Téléphone</small>+221 78 525 85 17</span><span>→</span></a>
+      <a href="mailto:souleymanefaye.sjf@gmail.com"><span><small>Email</small>souleymanefaye.sjf@gmail.com</span><span>→</span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot">
+    <div class="brand"><img src="assets/jsf-logo.png" alt="" style="height:32px;width:32px"/><span class="brand-text">Jenius<span>Subtil Fiction</span></span></div>
+    <small>© <span id="y"></span> JSF — Dakar, Sénégal</small>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body></html>

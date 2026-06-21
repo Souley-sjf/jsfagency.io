@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>À propos — Souleymane Faye / JSF</title>
+<meta name="description" content="Souleymane Faye, fondateur de Jenius Subtil Fiction. Designer graphique, créatif digital, à Dakar."/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><img src="assets/jsf-logo.png" alt=""/><span class="brand-text">Jenius<span>Subtil Fiction</span></span></a>
+      <nav><ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="realisations.html">Réalisations</a></li><li><a href="a-propos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></nav>
+      <a href="contact.html" class="btn btn-primary nav-cta">Demander un devis →</a>
+      <button class="menu-btn" aria-label="Menu"><span></span></button>
+    </div>
+    <div class="mobile-panel">
+      <a href="index.html">Accueil</a><a href="services.html">Services</a>
+      <a href="realisations.html">Réalisations</a><a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">À propos</p>
+    <h1>Bonjour, je suis Souleymane Faye.</h1>
+    <p>Designer graphique, créatif digital, et fondateur de Jenius Subtil Fiction.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container about reveal">
+    <div class="about-img">
+      <img src="assets/portrait.png" alt="Souleymane Faye"/>
+      <div class="about-badge"><p>Fondateur</p><p>Souleymane Faye</p></div>
+    </div>
+    <div class="about-text">
+      <p>Designer graphique, créatif digital et futur expert en communication visuelle, je transforme les idées en identités fortes, cohérentes et mémorables.</p>
+      <p>Grâce à ma formation en Multimédia, Internet et Communication (MIC), je maîtrise l'ensemble du processus créatif : de la conception d'une identité visuelle à la création d'expériences numériques modernes, en passant par le design d'interfaces et le développement web front-end.</p>
+      <p>Passionné par le storytelling visuel, j'accorde une attention particulière à chaque détail pour concevoir des projets qui ne se contentent pas d'être beaux, mais qui transmettent un message clair et laissent une empreinte durable.</p>
+      <p>Aujourd'hui, j'accompagne les marques, entreprises et porteurs de projets dans la création d'univers visuels impactants, pensés pour se démarquer et évoluer dans un environnement numérique en constante transformation.</p>
+      <div class="values">
+        <div class="value">Créativité</div><div class="value">Stratégie</div>
+        <div class="value">Innovation</div><div class="value">Précision</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="process">
+  <div class="container">
+    <p class="eyebrow">Parcours</p>
+    <h2 class="section-title" style="margin-top:.6rem">Étapes clés</h2>
+    <div class="process-grid">
+      <div class="process-item"><p class="n">Formation</p><h3>MIC</h3><p>Multimédia, Internet & Communication — Dakar.</p></div>
+      <div class="process-item"><p class="n">Pratique</p><h3>Design freelance</h3><p>Premiers clients, branding & visuels.</p></div>
+      <div class="process-item"><p class="n">Expertise</p><h3>Web & UI/UX</h3><p>Front-end, WordPress, design d'interfaces.</p></div>
+      <div class="process-item"><p class="n">Aujourd'hui</p><h3>JSF Studio</h3><p>Studio créatif complet pour marques.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <div class="container center">
+    <p class="eyebrow">Outils</p>
+    <h2 class="section-title" style="margin:.6rem auto 3rem">Maîtrise technique</h2>
+    <div class="skills">
+      <div class="skill"><img src="assets/photoshop.png" alt=""/><p>Photoshop</p></div>
+      <div class="skill"><img src="assets/illustrator.png" alt=""/><p>Illustrator</p></div>
+      <div class="skill"><img src="assets/figma.png" alt=""/><p>Figma</p></div>
+      <div class="skill"><img src="assets/lightroom.png" alt=""/><p>Lightroom</p></div>
+      <div class="skill"><img src="assets/vscode.png" alt=""/><p>VS Code</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot">
+    <div class="brand"><img src="assets/jsf-logo.png" alt="" style="height:32px;width:32px"/><span class="brand-text">Jenius<span>Subtil Fiction</span></span></div>
+    <small>© <span id="y"></span> JSF — Dakar, Sénégal</small>
+    <small>souleymanefaye.sjf@gmail.com · +221 78 525 85 17</small>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body></html>

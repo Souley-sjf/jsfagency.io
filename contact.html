@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contact — Jenius Subtil Fiction</title>
+<meta name="description" content="Contactez Souleymane Faye / JSF pour vos projets de branding, design et site web."/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><img src="assets/jsf-logo.png" alt=""/><span class="brand-text">Jenius<span>Subtil Fiction</span></span></a>
+      <nav><ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="realisations.html">Réalisations</a></li><li><a href="a-propos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></nav>
+      <a href="contact.html" class="btn btn-primary nav-cta">Demander un devis →</a>
+      <button class="menu-btn" aria-label="Menu"><span></span></button>
+    </div>
+    <div class="mobile-panel">
+      <a href="index.html">Accueil</a><a href="services.html">Services</a>
+      <a href="realisations.html">Réalisations</a><a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Contact</p>
+    <h1>Parlons de votre projet.</h1>
+    <p>Réponse sous 24 h. Disponible pour vos projets à Dakar et à l'international.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container" style="display:grid;gap:2.5rem;grid-template-columns:1fr;max-width:1100px">
+    <style>@media(min-width:900px){.contact-2col{grid-template-columns:1.3fr 1fr !important}}</style>
+    <div class="contact-2col" style="display:grid;gap:2.5rem;grid-template-columns:1fr">
+      <!-- form -->
+      <form id="contact-form" class="form reveal">
+        <div class="row">
+          <div><label>Votre nom</label><input name="name" required placeholder="Nom complet"/></div>
+          <div><label>Email</label><input name="email" type="email" required placeholder="vous@email.com"/></div>
+        </div>
+        <div class="row">
+          <div><label>Sujet</label>
+            <select name="subject">
+              <option>Création de site web</option>
+              <option>Identité visuelle / Logo</option>
+              <option>Branding complet</option>
+              <option>Supports réseaux sociaux</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div><label>Budget estimé</label>
+            <select name="budget">
+              <option>Moins de 200 000 F</option>
+              <option>200 000 — 500 000 F</option>
+              <option>500 000 — 1 000 000 F</option>
+              <option>Plus de 1 000 000 F</option>
+              <option>À définir ensemble</option>
+            </select>
+          </div>
+        </div>
+        <div><label>Décrivez votre projet</label><textarea name="message" rows="6" required placeholder="Contexte, objectifs, échéance…"></textarea></div>
+        <button type="submit" class="btn btn-primary">Envoyer la demande →</button>
+      </form>
+
+      <!-- cards -->
+      <aside style="display:grid;gap:1rem;align-content:start">
+        <a href="https://wa.me/221785258517" class="card" style="display:block">
+          <div class="card-row"><span class="card-num">WhatsApp</span><span class="card-arrow">→</span></div>
+          <h3 style="margin-top:1.5rem;font-size:1.2rem">Discussion rapide</h3>
+          <p>Réponse en moins d'une heure aux horaires de bureau.</p>
+        </a>
+        <a href="tel:+221785258517" class="card" style="display:block">
+          <div class="card-row"><span class="card-num">Téléphone</span><span class="card-arrow">→</span></div>
+          <h3 style="margin-top:1.5rem;font-size:1.2rem">+221 78 525 85 17</h3>
+          <p>Du lundi au vendredi, 9h–18h GMT.</p>
+        </a>
+        <a href="mailto:souleymanefaye.sjf@gmail.com" class="card" style="display:block">
+          <div class="card-row"><span class="card-num">Email</span><span class="card-arrow">→</span></div>
+          <h3 style="margin-top:1.5rem;font-size:1.15rem">souleymanefaye.sjf@gmail.com</h3>
+          <p>Pour briefs détaillés et pièces jointes.</p>
+        </a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot">
+    <div class="brand"><img src="assets/jsf-logo.png" alt="" style="height:32px;width:32px"/><span class="brand-text">Jenius<span>Subtil Fiction</span></span></div>
+    <small>© <span id="y"></span> JSF — Dakar, Sénégal</small>
+    <small>souleymanefaye.sjf@gmail.com · +221 78 525 85 17</small>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body></html>
